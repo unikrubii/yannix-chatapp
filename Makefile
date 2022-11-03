@@ -6,7 +6,7 @@ run:
 setup: $(ENV)
 	@pip install --upgrade pip
 	@pip install pipenv
-	@pip install -r requirements.txt
+	@pipenv install -r requirements.txt
 	@pipenv run python app/manage.py migrate
 
 $(ENV): 
