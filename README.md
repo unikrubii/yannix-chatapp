@@ -1,4 +1,4 @@
-# yannix-chatbot
+# Yannix-Chatapp
 An interview assignment for Yannix
 
 ## Requirement
