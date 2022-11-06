@@ -13,10 +13,11 @@ An interview assignment for Yannix
 4. Click on Reopen in Container.  
 5. Set up Dev Container with `Python3 & PostgreSQL`, choose `Python 3.10` then choose `lts` and you don't need to choose any additional features. 
 6. After finished building dev container, run `make setup` then `make run`.  
-7. Click url on your terminal or type localhost:8000 in your browser.
+7. Click url on your terminal or type `localhost:8000` in your browser.
 
 ---
 # API Routes
+##### To see swagger, type `localhost:8000/api/docs` in your browser
 <img width="1376" alt="image" src="https://user-images.githubusercontent.com/83582645/199781957-931a3a21-9bf5-4945-9615-3c32810c023c.png">
 
 
