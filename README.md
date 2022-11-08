@@ -23,3 +23,4 @@ An interview assignment for Yannix
 
 ##### Notes
 - I add `post` and `delete` routes in order to make database and functions more comfortable to test. :)
+- There are some test cases for this program but (not thoroughly) try in by running `make test`
