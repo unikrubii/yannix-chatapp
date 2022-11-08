@@ -65,14 +65,15 @@ def get_chat_by_id(request, chat_id: int):
     return 200, response
 
 
-@router.post("/rooms/", response={201: RoomOut})
+@router.post("/rooms/", response={201: RoomOut, 400: ErrorOut})
 def create_room(request, name: str):
     """
         A function that takes in room_name and returns a response.
     """
     command = DBHandler(request)
     response = command.create_room(name)
-
+    if response is None:
+        return 400, {"message": f"Room with name: {name} already exists"}
     return 201, response
 
 

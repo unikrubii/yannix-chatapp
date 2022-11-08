@@ -72,6 +72,8 @@ class DBHandler:
         """
             This function creates a room given a name.
         """
+        if name in [room.name for room in Rooms.objects.all()]:
+            return None
         room = Rooms.objects.create(name=name)
         return {
             "id": room.id,
