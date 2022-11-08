@@ -10,7 +10,7 @@ setup: $(ENV)
 	@pipenv run python app/manage.py migrate
 
 test:
-	@pipenv run python app/manage.py test chatapp
+	@pipenv run python app/manage.py test chatapp -v 2
 
 $(ENV): 
 	echo "DB_NAME=postgres\nDB_USER=postgres\nDB_PASSWORD=postgres\
