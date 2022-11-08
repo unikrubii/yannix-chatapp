@@ -22,4 +22,4 @@ An interview assignment for Yannix
 
 
 ##### Notes
-- I add post and delete routes in order to make database and function more comfortable to test. :)
+- I add `post` and `delete` routes in order to make database and functions more comfortable to test. :)
